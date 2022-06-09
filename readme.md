@@ -18,8 +18,14 @@ Please perform the following instructions.
 // src/index.js
 
 // complete the function
+let num;
+
 function prime(num) {
   // code goes here
+  if (num % 2 === 0) {
+    return "false"
+  } else {
+  return "true"}
 }
 
 function solution(arg) {
